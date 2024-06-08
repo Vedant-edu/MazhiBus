@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB URI
-const uri = "mongodb+srv://vdnt:VBbwKn6GJAu0wmRo@mazhibus.03t5q3x.mongodb.net/mydatabaseFinal?retryWrites=true&w=majority&appName=MazhiBus";
+const uri = "mongodb+srv://vdnt:vdnt@cluster0.hhje4qf.mongodb.net/mydatabaseFinal?retryWrites=true&w=majority&appName=Cluster0";
 
 // Connect to MongoDB
 mongoose.connect(uri)
